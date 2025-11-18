@@ -1,0 +1,7 @@
+DOCKERHUB_USERNAME, DOCKERHUB_PASSWORD (if pushing images)
+
+MONGODB_URI (for CI integration tests if needed)
+
+JWT_SECRET
+
+RENDER_SERVICE_ID / RENDER_API_KEY (if deploying to Render) — optional
