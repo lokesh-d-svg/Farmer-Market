@@ -1,0 +1,7 @@
+backend/ (FastAPI app, requirements.txt, Dockerfile)
+
+frontend/ (static files or React app)
+
+docker-compose.yml
+
+README.md and seed.py (or seed script)
