@@ -1,0 +1,9 @@
+Verify API at https://your-domain/docs.
+
+Add HTTPS via reverse proxy or platform-managed certs.
+
+Monitor logs: docker-compose logs -f.
+
+Rotate secrets; use managed DB (MongoDB Atlas) for production.
+
+Configure backups for MongoDB.
