@@ -1,0 +1,2 @@
+docker exec -it $(docker ps --filter "ancestor=your-backend-image" -q) bash
+python app/seed.py
