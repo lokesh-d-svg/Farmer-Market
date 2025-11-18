@@ -1,0 +1,26 @@
+Option A — Deploy to Render (easiest)
+
+Create a Render account (render.com).
+
+Create a new Web Service and connect your GitHub repo.
+
+For environment, set build & start commands (or use Docker image from Docker Hub).
+
+Add environment variables (MONGODB_URI, JWT_SECRET) in Render dashboard.
+
+Deploy — Render will build and serve your app, give you a URL.
+
+Option B — VPS (Ubuntu) with Docker Compose
+
+Provision a server (DigitalOcean droplet, AWS EC2).
+
+Install Docker & Docker Compose.
+
+git clone your repo on the server.
+
+Put .env file on server with production values and JWT_SECRET.
+
+Run:
+
+
+docker-compose up -d --build
