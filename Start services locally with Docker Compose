@@ -1,0 +1,7 @@
+# build and start
+docker-compose up --build -d
+
+# confirm services
+docker-compose ps
+# view logs
+docker-compose logs -f backend
